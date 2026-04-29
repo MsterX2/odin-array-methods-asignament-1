@@ -1,1 +1,0 @@
-alert("exercise 3")
