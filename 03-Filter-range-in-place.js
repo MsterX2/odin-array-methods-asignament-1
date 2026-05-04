@@ -13,4 +13,13 @@ filterRangeInPlace(arr, 1, 4); // removed the numbers except from 1 to 4
 
 alert( arr ); // [3, 1]
 `
-alert("exercise 3")
+
+function filterRangeInPlace(array, lowerLimit,topLimit) {
+    arr = array.filter(item => item >= lowerLimit && item < topLimit)
+}
+
+let arr = [5, 3, 8, 1];
+
+filterRangeInPlace(arr, 1, 4); // removed the numbers except from 1 to 4
+
+alert( arr ); // [3, 1]
